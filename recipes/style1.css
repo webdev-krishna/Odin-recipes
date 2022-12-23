@@ -1,0 +1,65 @@
+/*Chicken Dum biryani Recipe*/
+body{
+    background-color:#3bbdde;
+}
+
+h1{
+    color: yellow;
+    text-align: center;
+    margin-right: 0%;    
+}
+
+
+div img {
+    height:auto;
+    width: 750px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+a:active {
+    color: blue;
+}
+
+a:hover {
+    color: orange;
+}
+
+a:visited {
+    color:purple;
+
+}
+
+a:focus {
+    color:darkgreen;
+}
+.para {
+    /*background-color: rgb(233, 210, 180);
+    background-size:cover;
+    visibility: visible;
+    width: 95%;
+    height: auto;
+    position: absolute;
+    padding: 70px 0px;*/
+
+    height:auto;
+    background-color: #e9d2b4 ;
+    width: 700px;
+    display: block;
+    padding: 25px 25px 25px 25px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+
+.toppage {
+    height:auto;
+    background-color: coral;
+    width: 750px;
+    display: block;
+    padding: 25px 25px 25px 25px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+}
