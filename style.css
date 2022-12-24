@@ -52,7 +52,7 @@ h1{
     
 }
 
-div img {
+.transparent img {
     height:auto;
     width:150px;
     display: block;
@@ -76,4 +76,41 @@ a:visited {
 /* Focus: when we click and hold*/
 a:focus {
     color:darkgreen;
+}
+
+/**/
+div img {
+    height:auto;
+    width: 650px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.item {
+    height:auto;
+    background-color: #e9d2b4 ;
+    width: 600px;
+    display: block;
+    padding: 25px 25px 25px 25px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+
+.toppage {
+    height:auto;
+    background-color: coral;
+    width: 650px;
+    display: block;
+    padding: 25px 25px 25px 25px;
+    margin-right: auto;
+    margin-left: auto; 
+    border: 3px solid black;
+}
+h2 {
+    color: rgb(117, 10, 10);
+}
+li{
+    color: indigo;
 }
