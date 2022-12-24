@@ -12,7 +12,6 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    justify-content: center;
     height: auto;
     padding: 25px 25px 25px 25px;
 }
@@ -28,12 +27,13 @@ body{
  */
 
 .transparent ,.para {
-    width: 650px;
+    width: 2100px;
 }
 
 .homepage {
     background-color: coral;
-    width: 700px;
+    width: 2300px;
+    height: auto;
 }
 
 .transparent {
@@ -45,6 +45,7 @@ body{
     background-color: rgb(233, 210, 180);
     
 }
+
 
 h1{
     color: yellow;
@@ -100,7 +101,7 @@ div img {
 
 .toppage {
     height:auto;
-    background-color: coral;
+    background-color: rgb(238, 80, 255);
     width: 650px;
     display: block;
     padding: 25px 25px 25px 25px;
@@ -113,4 +114,20 @@ h2 {
 }
 li{
     color: indigo;
+}
+
+.float-parent{
+ background-color:cadetblue;  
+ height: 2000px; 
+ 
+}
+
+.float-child {
+    float: left;
+    padding: 20px;
+    border: 3px dotted green;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    background-color: aliceblue;
 }
