@@ -1,5 +1,5 @@
 body{
-    background-color: aquamarine;
+    background-color: rgb(187, 180, 180);
 }
 
 /*
@@ -27,13 +27,13 @@ body{
  */
 
 .transparent ,.para {
-    width: 2100px;
+    width: 2000px;
 }
 
 .homepage {
     background-color: coral;
-    width: 2300px;
-    height: auto;
+    width: 2150px;
+    height: 2800px;
 }
 
 .transparent {
@@ -43,19 +43,19 @@ body{
 
 .para {
     background-color: rgb(233, 210, 180);
-    
+    font-size: 50px;
 }
 
 
-h1{
-    color: yellow;
+.transparent h1{
+    color: rgb(38, 20, 20);
     text-align: center;
-    
+    font-size: 70px;
 }
 
 .transparent img {
     height:auto;
-    width:150px;
+    width:450px;
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -80,9 +80,15 @@ a:focus {
 }
 
 /**/
+.toppage h1 {
+    color: rgb(38, 20, 20);
+    text-align: center;
+}
+
+
 div img {
     height:auto;
-    width: 650px;
+    width: 600px;
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -92,7 +98,7 @@ div img {
 .item {
     height:auto;
     background-color: #e9d2b4 ;
-    width: 600px;
+    width: 550px;
     display: block;
     padding: 25px 25px 25px 25px;
     margin-right: auto;
@@ -101,33 +107,45 @@ div img {
 
 .toppage {
     height:auto;
-    background-color: rgb(238, 80, 255);
-    width: 650px;
+    background-color: rgb(227, 192, 128);
+    width: 600px;
     display: block;
-    padding: 25px 25px 25px 25px;
+    padding: 25px 25px 50px 25px;
     margin-right: auto;
     margin-left: auto; 
-    border: 3px solid black;
+    /*border: 5px solid orangered;*/
 }
 h2 {
     color: rgb(117, 10, 10);
+    
 }
+
+.item h2 {
+    color: rgb(117, 10, 10);
+    font-size: 45px;
+}
+
 li{
     color: indigo;
+    
 }
 
 .float-parent{
- background-color:cadetblue;  
- height: 2000px; 
- 
+ /*background-color:cadetblue; */
+ height: 1770px; 
+ width: 2100px;
+ margin-left: auto;
+ margin-right: auto;
+ padding: 50px 25px 50px 25px;
 } 
 
 .float-child {
     float: left;
     padding: 20px;
-    border: 3px dotted green;
-    margin-left: auto;
-    margin-right: auto;
+    /*border: 3px dotted green;*/
     height: auto;
-    background-color: aliceblue;
+    /*background-color: aliceblue;*/
+    padding: 25px 25px 25px 25px;
+    /*margin-top: auto;
+    margin-bottom: auto;*/
 }
