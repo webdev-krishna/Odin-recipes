@@ -11,15 +11,6 @@ h1{
     font-size: 35px;   
 }
 
-div img {
-    height:auto;
-    width: 750px;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    
-}
-
 a:active {
     color: blue;
 }
@@ -37,15 +28,16 @@ a:focus {
     color:darkgreen;
 }
 
-.item2 {
-    /*background-color: rgb(233, 210, 180);
-    background-size:cover;
-    visibility: visible;
-    width: 95%;
-    height: auto;
-    position: absolute;
-    padding: 70px 0px;*/
+div img {
+    height:auto;
+    width: 750px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
 
+.item2 {
     height:auto;
     background-color: #e9d2b4 ;
     width: 700px;
