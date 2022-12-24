@@ -1,41 +1,79 @@
 body{
+    background-color: aquamarine;
+}
+
+/*
+    the below selector is used as the classes
+    have the same properties and the same code
+    must not be repeated to every element.
+ */
+
+.homepage ,.transparent ,.para {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    height: auto;
+    padding: 25px 25px 25px 25px;
+}
+
+ /* width property may not be necessary 
+ as the div's are aligned 
+ to center and auto margined*/
+
+ /*
+    the below selector is used as the classes
+    have the same properties and the same code
+    must not be repeated to every element.
+ */
+
+.transparent ,.para {
+    width: 650px;
+}
+
+.homepage {
     background-color: coral;
+    width: 700px;
+}
+
+.transparent {
+    background-color: palevioletred;
+
+}
+
+.para {
+    background-color: rgb(233, 210, 180);
+    
 }
 
 h1{
-    color: orangered;
+    color: yellow;
     text-align: center;
-    margin-bottom: 0%;
-    margin-right: 0%;
     
 }
 
 div img {
-    height:150px;
+    height:auto;
     width:150px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
     
 }
-
+/* Active: Before clicking the link*/
 a:active {
     color: blue;
 }
-
+/* Hover: displays when it is hovered*/
 a:hover {
-    color: orange;
+    color: #0b0700;
 }
-
+/* visited: displays after visiting link*/
 a:visited {
     color:purple;
-
 }
-
+/* Focus: when we click and hold*/
 a:focus {
     color:darkgreen;
-}
-.para {
-    background-color: rgb(233, 210, 180);
-    background-size:cover;
-    visibility: visible;
-    width: 400px;
-    height: auto;
 }
